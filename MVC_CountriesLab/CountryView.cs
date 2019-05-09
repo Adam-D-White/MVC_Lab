@@ -22,8 +22,8 @@ namespace MVC_CountriesLab
             Console.WriteLine("  \n" +
                 "Country : " + DisplayCountry.Name);
             Console.WriteLine("Continent : " + DisplayCountry.Continent);
-            //foreach(string color in DisplayCountry.Colors)
-            Console.WriteLine("Country Flag Colors : " + DisplayCountry.Colors);
+            foreach (string color in DisplayCountry.Colors)
+            { Console.WriteLine("Country Flag Colors : " + color); }
         }
 
 
